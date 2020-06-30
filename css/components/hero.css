@@ -1,7 +1,6 @@
 .hero {
 	background-image: url(../../img/simon-migaj-561506-unsplash.png);
-	padding: 185px 0;
-    height: 650px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +23,11 @@
 	letter-spacing: 2px;
 }
 
+@media (min-width: 320px) and (max-width: 402px) {
+    .hero {
+        margin-top: -45px;
+    }
+}
 @media (max-width: 343px) {
     .hero {
         height: 500px;
@@ -32,13 +36,13 @@
 }
 @media (min-width: 640px) and (max-width: 1156px) {
     .hero {
-        height: 600px;
+        height: 570px;
         background-size: cover;
     }
 }
 @media (min-width: 1156px) {
     .hero {
-        height: 650px;
+        height: 600px;
         background-size: cover;
     }
 }
