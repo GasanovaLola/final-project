@@ -15,6 +15,8 @@
 .second-section {
 	background-image: url(../../img/mountains.png);
 	height: 500px;
+	background-repeat: no-repeat;
+    background-size: 100%;
 }
 .background-color-section {
 	text-align: center;
@@ -42,6 +44,10 @@
 }
 .padding-section-top {
 	padding-top: 90px;
+	height: auto;
+}
+.padding-section-top .title-card {
+	margin-bottom: 20px;
 }
 .padding-section {
 	padding: 90px 0;
@@ -49,14 +55,25 @@
 .title-section {
 	margin: 0 0 64px 0 ;
 }
-@media (min-width: 960px) {
+
+@media (max-width: 960px) {
+
+.background-section {
+	margin: 0 !important;
+}
+}
+@media (min-width: 961px) {
 	.background-section {
 		background-image: url(../../img/img.png); 
-		height: 888px; background-size: 100%; 
+		height: 888px; 
+		background-size: 100%; 
 		background-repeat: no-repeat;
+		background-size: cover; 
+		background-position: bottom;
 	}
 	.second-section {
 	display: block;
+	/*margin-top: -100px;*/
 }
 }
 @media (min-width: 640px) and (max-width: 1156px) {
