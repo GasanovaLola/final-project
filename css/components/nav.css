@@ -29,7 +29,8 @@
     color: #FF0032;
 }
 .is-active {
-    color: #FF0032;
+    font-weight: bold;
+    font-size: 16px;
 }
 .navbar-nav > .nav-item.is-active > .nav-link-item {
   color: #FF0032;
@@ -116,5 +117,12 @@
   }
   .navbar-nav-mobile {
     display: none !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 402px) {
+  .navbar-toggle {
+    margin: -35px 0 0 219px;
+    top: -60px;
   }
 }
