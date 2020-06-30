@@ -1,137 +1,161 @@
 .row {
-    font-size: 0;
+  font-size: 0;
+}
+
+.row > .column {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.row-large {
+  margin: -2px ;
+}
+.row-large > .column {
+  margin: 2px ;
+}
+
+.row-medium {
+  margin: -20px -16px;
+}
+.row-medium > .column {
+  padding: 20px 16px;
+}
+
+.row-middle {
+    margin:  -7px;
   }
-  
-  .row > .column {
-    display: inline-block;
-    font-size: 1rem;
+  .row-middle > .column {
+    padding: 7px;
   }
-  
+.description-row {
+  font-size: 14px !important;
+}
+@media (min-width: 480px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .row-large {
-    margin: -0.5px ;
+    margin:  -5px ;
   }
   .row-large > .column {
-    margin: 0.5px ;
+    margin:  5px ;
   }
-  
+
   .row-medium {
-    margin: -20px -16px;
+    margin: -30px -23px;
   }
   .row-medium > .column {
-    padding: 20px 16px;
+    padding: 30px 23px;
   }
-  
+
   .row-middle {
-      margin:  -7px;
-    }
-    .row-middle > .column {
-      padding: 7px;
-    }
-  
-  @media (min-width: 480px) {
-    .row {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-    }
-    .row-large {
-      margin:  -5px ;
-    }
-    .row-large > .column {
-      margin:  5px ;
-    }
-  
-    .row-medium {
-      margin: -30px -23px;
-    }
-    .row-medium > .column {
-      padding: 30px 23px;
-    }
-  
-    .row-middle {
-      margin:  -10px;
-    }
-    .row-middle > .column {
-      padding: 10px;
-    }
-    .img-row {
+    margin:  -10px;
+  }
+  .row-middle > .column {
+    padding: 10px;
+  }
+  .img-row {
+  height: 130px; 
+  width: 220px;
+}
+.div-galary {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+.description-row {
+  font-size: 16px !important;
+}
+}
+
+@media (min-width: 640px) {
+  .row-large {
+    margin: -1px ;
+  }
+  .row-large > .column {
+    margin: 6px ;
+  }
+
+  .row-medium {
+    margin: -10px -33px;
+  }
+  .row-medium > .column {
+    padding: 10px 33px;
+  }
+
+  .row-middle {
+    margin: -15px;
+  }
+  .row-middle > .column {
+    padding: 15px;
+  }
+.div-galary {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .img-row {
     height: 130px; 
     width: 220px;
   }
-  .div-galary {
-      max-width: 500px;
-      margin: 0 auto;
-    }
-  
+  .description-row {
+  font-size: 16px !important;
+}
+}
+@media (min-width: 980px) {
+  .img-row {
+    height: 170px; 
+    width: 256px;
   }
-  
-  @media (min-width: 640px) {
-    .row-large {
-      margin: -1px ;
-    }
-    .row-large > .column {
-      margin: 1px ;
-    }
-  
-    .row-medium {
-      margin: -10px -33px;
-    }
-    .row-medium > .column {
-      padding: 10px 33px;
-    }
-  
-    .row-middle {
-      margin: -15px;
-    }
-    .row-middle > .column {
-      padding: 15px;
-    }
-  .div-galary {
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    .img-row {
-      height: 130px; 
-      width: 220px;
-    }
+  .description-row {
+  font-size: 16px !important;
+}
+}
+@media (min-width: 495px) and (max-width: 640px) {
+  .img-row {
+    height: 130px; 
+    width: 200px;
   }
-  @media (min-width: 980px) {
-    .img-row {
-      height: 170px; 
-      width: 256px;
-    }
+  .description-row {
+  font-size: 16px !important;
+}
+}
+@media (min-width: 343px) and (max-width: 495px) {
+  .img-row {
+    height: 80px; 
+    width: 132px;
   }
-  @media (min-width: 495px) and (max-width: 640px) {
-    .img-row {
-      height: 130px; 
-      width: 200px;
-    }
+  .description-row {
+  font-size: 16px !important;
+}
+}
+@media (max-width: 343px) {
+  .img-row {
+    height: 70px; 
+    width: 120px;
   }
-  @media (min-width: 343px) and (max-width: 495px) {
-    .img-row {
-      height: 80px; 
-      width: 135px;
-    }
+  .description-row {
+    font-size: 14px !important;
   }
-  @media (max-width: 343px) {
-    .img-row {
-      height: 70px; 
-      width: 120px;
-    }
+}
+
+@media (min-width: 640px) and (max-width: 1155px) {
+  .img-row {
+    height: 150px; 
+    width: 230px;
   }
-  
-  @media (min-width: 640px) and (max-width: 1155px) {
-    .img-row {
-      height: 150px; 
-      width: 230px;
-    }
+  .description-row {
+  font-size: 16px !important;
+}
+}
+@media (min-width: 1155px) {
+  .img-row {
+    height: 150px; 
+    width: 240px;
   }
-  @media (min-width: 1155px) {
-    .img-row {
-      height: 150px; 
-      width: 250px;
-    }
-  }
-  
+  .description-row {
+  font-size: 16px !important;
+}
+}
