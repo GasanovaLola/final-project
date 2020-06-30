@@ -6,6 +6,11 @@
 	margin: 0 15px;
 	display: flex;
 }
+.header-title h1 {
+	color: #0F2D47;
+	font-weight: bolder;
+	font-size: 25px;
+}
 .header-top-item .icon-content {
 	margin: 17px 0;
 	margin-right: 10px;
@@ -28,6 +33,7 @@
 		flex-wrap: nowrap;
 	}
 .name {
+	font-weight: bold;
 }
 @media (max-width: 480px) {
 	.display {
