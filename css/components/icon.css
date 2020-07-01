@@ -3,3 +3,6 @@
 	display: inline-block;
 	margin: 0 7.5px 0 7.5px;
 }
+.style-icon:hover {
+	color: #FF0032;
+}
