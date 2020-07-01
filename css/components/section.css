@@ -99,6 +99,7 @@
 }
 .second-section {
 	display: block;
+	height: 445px;
 }
 }
 @media (min-width: 495px) and (max-width: 640px) {
