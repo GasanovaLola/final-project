@@ -1,6 +1,8 @@
 .navbar {
-	max-width: 760px;
-	margin: 0 auto;
+	/*max-width: 760px;*/
+  display: flex;
+  justify-content: space-around;
+  margin-top: 14px !important;
 }
 
 .navbar-nav {
@@ -108,7 +110,7 @@
   color: #FF0032;
 
 }
-@media (min-width: 790px) {
+@media (min-width: 817px) {
   .navbar-nav {
     display: flex;
   }
@@ -121,8 +123,12 @@
 }
 
 @media (min-width: 320px) and (max-width: 402px) {
-  .navbar-toggle {
-    margin: -35px 0 0 219px;
-    top: -60px;
+  .header-top {
+    margin-bottom: 35px;
+  }
+}
+@media (min-width: 403px) {
+  .header-top {
+    margin-bottom: 0px;
   }
 }
