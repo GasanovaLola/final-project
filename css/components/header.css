@@ -24,7 +24,6 @@
 .header-top {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 35px;
 	flex-wrap: wrap;
 }
 .display {
