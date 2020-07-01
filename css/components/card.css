@@ -15,10 +15,13 @@
 .title-card {
 	font-size: 18px;
 	line-height: 20px;
+	margin: 0;
+	color: #373F55;
 }
 .description-card {
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 18px;
+	color: #464649;
 }
 .stars figure {
 	width: 20px;
@@ -29,10 +32,15 @@
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-size: cover;
 }
 .text-card {
 	padding: 28px 18px;
 	text-align: left;
+}
+.second-section-card .text-card {
+    padding: 22px 18px;
+    text-align: left;
 }
 .stars {
 	display: inline-block;
