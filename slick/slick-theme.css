@@ -19,67 +19,31 @@
 .slick-prev,
 .slick-next
 {
-    font-size: 0;
-    line-height: 0;
-
+    background-image: url(../img/iconfinder_icon-ios7-arrow-right_211607.png);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
-    top: 50%;
-
-    display: block;
-
-    width: 20px;
+    width: 10px;
     height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-
-    cursor: pointer;
-
+    top: 50%;
+    border: 0;
+    font-size: 0;
     color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
 }
-.slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus
-{
-    color: transparent;
-    outline: none;
-    background: transparent;
-}
-.slick-prev:hover:before,
-.slick-prev:focus:before,
-.slick-next:hover:before,
-.slick-next:focus:before
-{
-    opacity: 1;
-}
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before
-{
-    opacity: .25;
-}
-
-.slick-prev:before,
-.slick-next:before
-{
-    font-family: 'slick';
-    font-size: 20px;
-    line-height: 1;
-
-    opacity: .75;
-    color: white;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.slick-prev,
+.slick-next:focus {
+    border: 0;
 }
 
 .slick-prev
 {
-    left: -25px;
+    left: -24px;
+    transform: rotate(180deg);
 }
 [dir='rtl'] .slick-prev
 {
@@ -90,14 +54,17 @@
 {
     content: '←';
 }
-[dir='rtl'] .slick-prev:before
-{
-    content: '→';
+[dir='rtl'] .sl .slick-next:before {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    content: '';
+    margin-left: -10px;
 }
 
 .slick-next
 {
-    right: -25px;
+    right: -24px;
 }
 [dir='rtl'] .slick-next
 {
